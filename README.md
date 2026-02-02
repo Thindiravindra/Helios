@@ -12,8 +12,8 @@ sources.
 ---
 
 ## Repository Contents
-- Primary submission notebook (robust, conservative)
-- Secondary submission notebook (exploratory)
+- Primary submission notebook
+- Secondary submission notebook
 - Feature engineering logic
 - Reproduction instructions
 - Final submission CSV
