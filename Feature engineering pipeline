@@ -16,8 +16,5 @@ Climate stress weighted by crop growth stage using hemisphere-specific calendars
 Stage 4: External Physiological Confirmation
 Public soil moisture anomalies are merged at the country-date level to confirm whether climate stress results in actual plant water stress.
 
-Stage 5: Exploratory Atmospheric Stress (Secondary Submission Only)
-External weather variables (VPD, ET₀, Water Deficit) are incorporated as anomaly-based features for exploratory analysis.
-
-Stage 6: Monthly Aggregation and Export
+Stage 5: Monthly Aggregation and Export
 All features are aggregated to monthly granularity and exported as climate_risk_* columns.
