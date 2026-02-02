@@ -13,6 +13,7 @@ Not market-derived
 Key constraint respected: Climate-only, public, non-market data.
 
 External Weather (Used Selectively)
+
 What: Limited atmospheric variables such as:
 Vapor Pressure Deficit (VPD)
 Evapotranspiration (ET₀)
@@ -26,3 +27,14 @@ What it is NOT:
 Not tuned to futures behavior
 Not used to rebuild Helios’s climate risk model
 Key constraint respected: External weather variables were treated as secondary context, not primary drivers.
+
+To ensure compliance with competition rules and avoid CFCS inflation, the following guardrails were enforced:
+
+❌ No futures_* columns or derivatives were used
+❌ No lagged or transformed market prices
+❌ No features designed to mirror or proxy futures behavior
+✅ All external data is climate-derived and publicly available
+✅ All rolling, cumulative, and seasonal calculations are strictly backward-looking
+✅ External features were used conservatively and sparingly
+
+
